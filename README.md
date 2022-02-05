@@ -2,7 +2,7 @@
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/fajriputra/react-pokeapi.git
+   git clone https://github.com/fajriputra/test-svara.git
    ```
 2. Install all packages on this project with the command below 
    ```sh
