@@ -1,0 +1,75 @@
+.text-stats {
+  h5 {
+    font-size: 1.25rem;
+    margin-bottom: 0.625rem;
+  }
+}
+.pokemon__stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+
+  &--name {
+    padding: 0.75rem 0.625rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    font-weight: 500;
+
+    &:nth-child(4) {
+      margin-bottom: 0;
+    }
+    &:nth-child(5) {
+      margin-bottom: 0;
+    }
+    &:nth-child(6) {
+      margin-bottom: 0;
+    }
+
+    &.hp {
+      background-color: #ff4d4d;
+    }
+
+    &.attack {
+      background-color: #ffa500;
+    }
+
+    &.defense {
+      background-color: #a6bcff;
+    }
+
+    &.special-attack {
+      background-color: #ffc400;
+    }
+
+    &.special-defense {
+      background-color: #79ceff;
+    }
+
+    &.speed {
+      background-color: #ff9925;
+    }
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .text-stats {
+    width: 400px;
+    margin: auto;
+  }
+
+  .pokemon__stats {
+    width: 400px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 961px) {
+  .pokemon__stats {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

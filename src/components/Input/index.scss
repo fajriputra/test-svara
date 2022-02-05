@@ -1,0 +1,18 @@
+.form-control {
+  border: 2px solid #dedede;
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::placeholder {
+    color: #aaaaaa;
+    font-size: 0.875rem;
+  }
+
+  &[type="text"] {
+    color: #aaaaaa;
+  }
+}

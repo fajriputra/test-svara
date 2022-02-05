@@ -1,0 +1,23 @@
+.form-select {
+  border: 2px solid #dedede;
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  color: #aaaaaa;
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Chrome */
+  -webkit-appearance: none;
+
+  &::-ms-expand {
+    display: none;
+  }
+
+  option {
+    color: #aaaaaa;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

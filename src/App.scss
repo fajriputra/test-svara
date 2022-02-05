@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 1.25rem;
+  min-height: 100vh;
+
+  @media (min-width: 992px) {
+    padding: 2.5rem;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.loading__spinners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-contain {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.rock {
+  background-color: rgb(148, 81, 81);
+}
+.ghost {
+  background-color: rgb(247, 247, 247);
+}
+.electric {
+  background-color: rgb(255, 255, 161);
+}
+.bug {
+  background-color: #f6d6a7;
+}
+.poison {
+  background-color: #e0a7f6;
+}
+.normal {
+  background-color: #f4f4f4;
+}
+.fairy {
+  background-color: rgba(255, 192, 203, 0.863);
+}
+.fire {
+  background-color: #fbe3df;
+}
+.grass {
+  background-color: #e2f9e1;
+}
+.water {
+  background-color: #e0f1fd;
+}

@@ -1,0 +1,40 @@
+.pokemon__label {
+  border-radius: 0.5rem;
+  background-color: #30a7d7;
+  min-height: 233px;
+  padding: 1.875rem 1.25rem;
+  margin-bottom: 1.25rem;
+  overflow: hidden;
+
+  &--content {
+    display: flex;
+
+    .left__content {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .pokemon__label {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &--content {
+      .left__content {
+        width: 60%;
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) {
+  .pokemon__label {
+    &--content {
+      .left__content {
+        width: 60%;
+      }
+    }
+  }
+}

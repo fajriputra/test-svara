@@ -1,0 +1,22 @@
+.pokemon__image {
+  padding: 1.875rem;
+  border-radius: 0.5rem;
+  background-color: #f2f2f2;
+  height: 350px;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .pokemon__image {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 769px) {
+  .pokemon__image {
+    width: 430px;
+    padding: 1.25rem;
+    height: 460px;
+  }
+}
