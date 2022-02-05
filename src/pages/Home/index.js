@@ -96,8 +96,9 @@ export default function Home() {
           }))}
         />
       </div>
+
       <Link to="/favorite" className="favorite">
-        Favorite
+        View favorite
       </Link>
 
       <div className="card">

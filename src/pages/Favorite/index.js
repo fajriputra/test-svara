@@ -32,7 +32,7 @@ const Favorite = () => {
         style={{
           textAlign: "center",
           fontSize: "1.5rem",
-          marginBottom: "3.125rem",
+          margin: "3.125rem auto",
         }}
       >
         Pokemon Favorite
@@ -43,7 +43,7 @@ const Favorite = () => {
             const types = item.types.map((item) => item.type.name);
 
             return (
-              <div className="stretched-link">
+              <div className="stretched-link" key={item.id}>
                 <PokemonThumbnail
                   onClick={() => handleDeleteFavorite(item)}
                   className={types[0]}
